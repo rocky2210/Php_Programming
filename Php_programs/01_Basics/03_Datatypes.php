@@ -1,13 +1,14 @@
 <?php
+// Datatypes
 
-/* Data types are classifications that categorize various 
-types of data that a program can manipulate. 
-Data types define the nature of the data and determine 
-what kind of operations can be performed on it.
+/* 
+    Datatypes:
+        Data types are classifications that categorize various 
+        types of data that a program can manipulate. 
+        Data types define the nature of the data and determine 
+        what kind of operations can be performed on it.
+        Datatypes = int,float,string,boolean
 */
-
-
-// Datatypes = int,float,string,boolean
 
 $s = "hello :)";
 $num = 5;
@@ -61,4 +62,32 @@ print("\n** String **<br>\n");
 $stringvar = "TRUE";
 // gettype() function used to get type of variable
 print("\t$stringvar is of type".gettype($stringvar)."<br>\n");
+
+
+/*
+    Output:
+        string : hello :) <br>
+        integer : 5 <br>
+        float : 1.5 <br>
+        boolean : 1 <br>
+        <hr>
+        ** Integer ** <br>
+                34 <br>
+                -34 <br>
+                55 <br>
+                255 <br>
+                212301 <br>
+
+        ** Float ** <br>
+                2.4523 <br>
+                2100 <br>
+                0.0021 <br>
+
+        ** Boolean **<br>
+                truevar: 1<br>
+                falsevar: 0<br>
+
+        ** String **<br>
+                TRUE is of typestring<br>
+ */
 ?>

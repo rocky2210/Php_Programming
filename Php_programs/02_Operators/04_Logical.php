@@ -1,4 +1,6 @@
 <?php
+// Logical Operator
+
 $h =10;
 $i = 5;
 
@@ -28,11 +30,11 @@ if (!($h == 10)) {
     echo "NOT <br>\n";
 }
 
-// Output
 /*
-AND <br>
-&& <br>
-OR <br>
-|| <br>
+    Output:
+        AND <br>
+        && <br>
+        OR <br>
+        || <br>
 */
 ?>

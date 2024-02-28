@@ -1,4 +1,11 @@
 <?php
+// Switch case
+
+/*
+    Switch case:
+        the switch statement is used to perform different actions based on the value of a variable or expression. 
+        It's an alternative to using multiple if statements when you need to compare a variable to multiple values
+*/
 
 $day = 4;
 
@@ -28,6 +35,9 @@ switch ($day) {
         break;
     }
 
-// Output
-    // Thursday 
+/*
+    Output:
+        Thursday 
+*/
+
 ?>

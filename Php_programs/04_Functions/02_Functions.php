@@ -35,5 +35,13 @@ echo $num;
 // When strict_types is set to 1, PHP will enforce strict type checking for function argument types and return types. 
 // This means that if a function is declared to accept an integer, passing a string will result in a type error.
 
+/*
+    Output:
+        10 /<br>
+        The height is 20 <br>
+        The height is 50 <br>
+        6.5 <br>
+        7
+*/
 ?>
 

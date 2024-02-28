@@ -1,4 +1,5 @@
 <?php
+// Bitwise
 
 $a = 12; // 0000 1100
 $b = 25; // 0001 1001
@@ -16,13 +17,13 @@ printf("x << 1 = %d\n<br>",$a << 1);
 //bitwise Right Shift Operator
 printf("x >> 1 = %d\n<br>",$a >> 1);
 
-// Output
 /*
-    And Output : 8
-    <br>OR Output : 29
-    <br>XOR Output : 21
-    <br>NOT Output : 11
-    <br>x << 1 = 24
-    <br>x >> 1 = 6
+    Output:
+        And Output : 8
+        <br>OR Output : 29
+        <br>XOR Output : 21
+        <br>NOT Output : 11
+        <br>x << 1 = 24
+        <br>x >> 1 = 6
 */
 ?>

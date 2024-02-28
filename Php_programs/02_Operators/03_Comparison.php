@@ -1,8 +1,14 @@
 <?php
+// Comparison Operator
 
 $d = 10;
 $e = 10;
 $f = 20;
+
+/*
+    var_dump() is a function used to display information about one or more variables, including their type and value. 
+    It is often used for debugging and inspecting the contents of variables during development
+*/
 
 echo "<r>\n".var_dump($d == $e); //equal
 var_dump($d === $e);//identical -returns true both or same and with same value
@@ -27,21 +33,21 @@ $e = 10;
 echo ($d <=> $e); // returns +1 because $x is greater than $y
 
 
-// Output
 /*
-    bool(true)
-    <r>
-    bool(true)
-    bool(false)
-    bool(false)
-    bool(false)
-    bool(false)
-    bool(true)
-    bool(false)
-    bool(true)
-    -1<br>
-    0<br>
-    1
+    Output:
+        bool(true)
+        <r>
+        bool(true)
+        bool(false)
+        bool(false)
+        bool(false)
+        bool(false)
+        bool(true)
+        bool(false)
+        bool(true)
+        -1<br>
+        0<br>
+        1
 */
 ?>
 

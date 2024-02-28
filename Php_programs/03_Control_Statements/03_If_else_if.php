@@ -1,4 +1,11 @@
 <?php 
+// If else if
+
+/*
+    If else if:
+        The if-else if-else statement, also known as the "else-if ladder," is used to evaluate multiple conditions sequentially and 
+        execute different blocks of code based on the first condition that evaluates to true
+*/
 
 $a = 10;
 if($a < 10){
@@ -10,6 +17,8 @@ if($a < 10){
 }
 
 
-//Output
-// a is equal than 10
+/*
+    Output:
+        a is equal than 10
+*/
 ?>

@@ -1,4 +1,12 @@
 <?php
+// Multidimensional array
+
+/*
+    Multidimensional array:
+        A multidimensional array in PHP is an array that contains one or more arrays as its elements. 
+        This allows for the creation of arrays with multiple levels of depth, 
+        providing a way to organize and represent complex data structures.
+*/
 
 $cars = array(
     array("Volvo",22,18),
@@ -33,6 +41,6 @@ for ($i = 0; $i < 4; $i++){
         <ul><li>BMW</li><li>15</li><li>13</li></ul> <p><b> Row number 2 </br><p>
         <ul><li>Saab</li><li>5</li><li>2</li></ul> <p><b> Row number 3 </br><p>
         <ul><li>Land Rover</li><li>17</li><li>15</li></ul>
- */
+*/
 ?>
 

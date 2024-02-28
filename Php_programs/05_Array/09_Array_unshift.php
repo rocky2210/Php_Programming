@@ -1,5 +1,11 @@
 <?php
+// Array unshift
 
+/*
+    Array unsift    
+        Use the PHP array_prepend() function to preprend one 
+        or more elements to the beginning of an array.
+*/
 $permissions = [
     'edit',
     'delete',
@@ -10,10 +16,6 @@ array_unshift($permissions,'new','appove','reject');
 
 print_r($permissions);
 
-/*
-    Use the PHP array_prepend() function to preprend one 
-    or more elements to the beginning of an array.
-*/
 
 /*
     Output:

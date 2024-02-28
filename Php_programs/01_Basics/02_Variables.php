@@ -1,9 +1,11 @@
 <?php
-// 
+// Variables
 
-/*Variables are the containers for storing the data values
-A variable is a symbolic name or identifier that is used 
-to store and represent a value in memory
+/*
+    Variables:
+        Variables are the containers for storing the data values
+        A variable is a symbolic name or identifier that is used 
+        to store and represent a value in memory
 */
 
 // Declaring variable
@@ -26,4 +28,13 @@ echo HELLO." constant\n";
 
 // Define function defines a constant at runtime
 // const keyword defines a constant at compile time
+
+/*
+    Output:
+        Value of variable: Hello<br>
+        Your name is rocky<br>
+        Your age is 21<br>
+        Value of pi is :3.14<br>
+        1.5 constant
+*/
 ?>
