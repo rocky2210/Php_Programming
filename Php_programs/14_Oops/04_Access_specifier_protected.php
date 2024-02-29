@@ -1,9 +1,11 @@
 <?php
+// Access specifier protected
+
 /*
- * The protected access modifier allows class properties and 
- * methods to be accessed within the class itself and in its subclasses. 
- * It restricts access from outside the class.
- */
+    protected: 
+        Protected properties and methods can only be accessed from within 
+        the class itself and from subclasses (classes that extend the parent class).
+*/
 
 class JujutsuKaisenCursed{
     protected $name;
@@ -28,4 +30,10 @@ class SpecialGradeCursedSpirit extends JujutsuKaisenCursed{
 $rynomenSukuna = new SpecialGradeCursedSpirit("Rynomen Sukuna");
 echo $rynomenSukuna->reveaName();
 echo $rynomenSukuna->performSpecialAttack();
+
+/*
+    Output:
+        My true name is Rynomen Sukuna.
+        I'm using a special attack as a special grade cursed spirit!
+*/
 ?>

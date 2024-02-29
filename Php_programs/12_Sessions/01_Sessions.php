@@ -1,4 +1,12 @@
 <?php
+// Sessions
+
+/*
+    Sessions:
+        sessions are a way to store information across multiple pages during a user's visit to a website. 
+        Sessions are commonly used for tasks such as user authentication, storing user preferences, and maintaining shopping cart data. 
+*/
+
 // Start the session
 session_start();
 ?>

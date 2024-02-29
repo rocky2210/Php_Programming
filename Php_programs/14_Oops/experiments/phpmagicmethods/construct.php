@@ -10,6 +10,10 @@ class DragonBallCharacter {
 }
 
 $goku = new DragonBallCharacter("Goku");
-echo $goku->name; // Output: Goku
+echo $goku->name; 
 
+/*
+    Output: 
+        Goku
+*/
 ?>

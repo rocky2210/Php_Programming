@@ -7,4 +7,9 @@ class Goodbye{
 }
 
 echo Goodbye::BYE; 
+
+/*
+    Output:
+        Bye see you soonnnnn....!
+*/
 ?>

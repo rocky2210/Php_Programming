@@ -12,6 +12,12 @@
 
     print_r($_SERVER);
 
+/*
+    PHP $_SERVER:
+        $_SERVER is a superglobal array that provides information about the server and the execution environment. 
+        It contains various information such as headers, paths, and script locations. Here are some commonly used 
+        elements of the $_SERVER array
+*/
 ?>
 
 </pre>

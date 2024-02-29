@@ -1,9 +1,16 @@
 <?php
+// Method Overriding
 
-/**
- * Method overriding allows a subclass to provide its own implementation of a method inherited from a parent class. 
- * This is similar to how Boruto improves upon the Rasengan in Naruto.
- */
+/*
+    Method overriding:
+        Method overriding is a concept in object-oriented programming (OOP) 
+        where a subclass provides a specific implementation of a method that 
+        is already defined in its superclass. This allows a subclass to customize 
+        or extend the behavior of inherited methods from its superclass.
+
+        This is similar to how Boruto improves upon the Rasengan in Naruto.
+
+*/
 
 class Jutsu{
     public function useJutsu(){
@@ -19,4 +26,9 @@ class BorutoRasengan extends Jutsu{
 
 $borutoRasengan = new BorutoRasengan();
 echo $borutoRasengan->useJutsu();
+
+/*
+    Output:
+        Boruto uses an improved Rasengan
+*/
 ?>

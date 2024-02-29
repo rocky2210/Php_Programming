@@ -11,4 +11,8 @@ Counter::increment();
 Counter::increment();
 echo Counter::$count;
 
+/*
+    Output:
+        2
+*/
 ?>

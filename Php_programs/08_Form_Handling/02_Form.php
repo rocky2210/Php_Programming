@@ -2,8 +2,8 @@
 
 Think SECURITY when processing PHP forms!
 
-These pages will show how to process PHP forms with security in mind. 
-Proper validation of form data is important to protect your form from hackers and spammers!
+    These pages will show how to process PHP forms with security in mind. 
+    Proper validation of form data is important to protect your form from hackers and spammers!
 
 -->
 

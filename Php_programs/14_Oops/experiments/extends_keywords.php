@@ -1,8 +1,13 @@
 <?php
-/**
- * the extends keyword is used to create a subclass (or child class) 
- * that inherits properties and methods from a parent class (or superclass). 
- */
+
+/*
+    Extends keywords:
+        the extends keyword is used to establish inheritance between classes. 
+        When a class extends another class, it inherits all the properties and 
+        methods of the parent class, allowing the child class to reuse and extend 
+        the functionality defined in the parent class. Here are some key points about 
+        the extends keyword:
+*/
 
 class Animal {
     public function makeSound(){
@@ -30,4 +35,10 @@ echo $animal->makeSound();
 echo $dog->makeSound();
 echo $cat->makeSound();
 
+/*
+    Output:
+        Some Generic animal sound
+        Wooow wooow
+        Meow Meow
+*/
 ?>

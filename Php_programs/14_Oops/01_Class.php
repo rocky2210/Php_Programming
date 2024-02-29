@@ -1,6 +1,11 @@
 <?php
-/* a class is like a blueprint for creating objects. In the Dragon Ball universe, 
-* think of a "Saiyan" as a class and "Goku" as an object created from that class.
+// Class
+
+/* 
+    Class
+        A class is like a blueprint for creating objects.It defines the properties (attributes) 
+        and methods (functions) that objects of the class will have.
+        In the Dragon Ball universe,think of a "Saiyan" as a class and "Goku" as an object created from that class.
 */
 
 // Define a Saiyan class
@@ -30,3 +35,10 @@ echo $vegeta->displayInfo();
 
 // Instanceof keyword check if an object belongs to specific class
 var_dump($goku instanceof Saiyan);
+
+/*
+    Output:
+        I am Goku, a Saiyan with a power level of 9001.<br>
+        I am Vegeta, a Saiyan with a power level of 8001.<br>
+        bool(true)
+*/

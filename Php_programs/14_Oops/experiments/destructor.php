@@ -12,4 +12,9 @@ class blackClover {
 }
 
 $apple = new blackClover("Asta");
+
+/*
+    Output:
+      The name is Asta.
+*/
 ?>

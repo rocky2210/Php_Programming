@@ -1,9 +1,11 @@
 <?php
-/**
- * Interfaces allow you to specify what methods a class should implement.
- * Interfaces make it easy to use a variety of different classes in the same way. 
- * When one or more classes use the same interface, it is referred to as "polymorphism".
- */
+// Interfaces
+
+/*
+    Interfaces:
+        An interface is declared using the interface keyword, followed by the interface name and a code block containing method declarations. 
+        Interfaces cannot contain properties, only method signatures.
+*/
 
 // Interface definition
 interface Animal {
@@ -40,4 +42,8 @@ foreach($animals as $animal) {
     $animal->makeSound();
 }
 
+/*
+    Output:
+        Meow  Bark  Squeak 
+*/
 ?>

@@ -1,5 +1,11 @@
 <?php
+// Access specifier private
 
+/*
+    private: 
+        Private properties and methods can only be accessed from within 
+        the class itself. They are not accessible from outside the class or from subclasses.
+*/
 class JujutsuKaisenCursedObject{
     private $name;
 
@@ -25,4 +31,8 @@ echo $cursedobject->interactWithJujutsuUser();
 // echo $cursedobject->name;
 // echo $cursedobject->hideName();
 
+/*
+    Output:
+        I'm a hidden cursed object with the name Forbidden Item
+*/
 ?>

@@ -16,6 +16,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo $name;
   }
 }
+
+/* 	
+	PHP $_POST:
+		$_POST is a superglobal array used to collect form data after submitting an HTML form with the HTTP POST method. 
+		This array contains key-value pairs where the keys are the names of the form controls (input fields) and the values 
+		are the corresponding input data provided by the user
+*/
 ?>
 
 </body>

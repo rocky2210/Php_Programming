@@ -1,8 +1,17 @@
 <?php
-/**
- * The public access modifier allows class properties and methods to be accessed from outside the class. 
- * It has the least restrictive visibility.
- */
+// Access specifiers public
+
+/*
+        Access specifiers:
+        Access specifiers, also known as access modifiers, are keywords in object-oriented programming languages 
+        like PHP that define the accessibility or visibility of properties and methods within a class. 
+        In PHP, there are three main access specifiers:
+
+        public: 
+            Public properties and methods can be accessed from outside the class, 
+            both from within the class itself and from external code.
+
+*/
 
 class JujutsuKaisenCharacter{
     public $name;
@@ -19,4 +28,9 @@ class JujutsuKaisenCharacter{
 
 $gojo = new JujutsuKaisenCharacter("Satoru Gojo");
 echo $gojo->intro();
+
+/*
+    Output:
+        Hi, I'm Satoru Gojo from Jujutsu Kaisen!
+*/
 ?>

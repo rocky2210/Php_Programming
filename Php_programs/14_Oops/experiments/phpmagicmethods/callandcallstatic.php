@@ -14,4 +14,10 @@ $naruto = new NarutoCharacter();
 echo $naruto->useRasengan("Wind Style"); // Output: Calling undefined method: useRasengan with arguments: Wind Style
 
 echo NarutoCharacter::findCharacter("Naruto"); 
+
+/*
+    Output:
+        Calling undefined method: useRasengan with arguments: Wind Style
+        Calling undefined static method: findCharacter with arguments: Naruto
+*/
 ?>

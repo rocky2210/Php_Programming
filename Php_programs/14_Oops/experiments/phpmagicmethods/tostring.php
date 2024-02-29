@@ -1,5 +1,9 @@
 <?php
-// The __toString method allows you to define how an object should be represented as a string when using echo or print.
+
+/* 
+    The __toString method allows you to define how an object should be represented as a 
+    string when using echo or print.
+*/
 
 // Declare a simple class
 class TestClass
@@ -20,4 +24,9 @@ class TestClass
 $class = new TestClass("hello");
 echo $class;
 // echo var_dump($class);
+
+/*
+    Output:
+        hello
+*/
 ?>

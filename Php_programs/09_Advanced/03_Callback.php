@@ -10,8 +10,20 @@ function my_callback($item){
 $strings = ["Goku","Vegeta","Gohan","Goten"];
 $lengths = array_map("my_callback",$strings);
 print_r($lengths);
+
+/*
+    Output:
+        Array
+        (
+            [0] => 4
+            [1] => 6
+            [2] => 5
+            [3] => 5
+        )
+*/
 echo "<br><br>"
 ?>
+
 
 <!-- User defined function -->
 <?php
@@ -29,4 +41,9 @@ function printFormatted($str, $format){
 
 printFormatted("Hello world", "exclaim");
 printFormatted("Hello world", "ask");
+
+/*
+    Output:
+        Hello world! Hello world?
+*/
 ?>

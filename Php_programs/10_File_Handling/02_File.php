@@ -2,7 +2,10 @@
 
 // Php open file - fopen()
 
-// A better method to open files is with the fopen() function. This function gives you more options than the readfile() function
+/*
+    fopen() function:
+        A better method to open files is with the fopen() function. This function gives you more options than the readfile() function
+*/
 
 $myfile = fopen("dummy.txt","r") or die ("unable to open file!");
 echo fread($myfile, filesize("dummy.txt"));
@@ -12,7 +15,6 @@ echo "<br><br>";
 echo (filesize("file.php"));
 echo "<br><br>";
 fclose($myfile); 
-
 ?>
 
 

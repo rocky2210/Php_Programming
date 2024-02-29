@@ -80,7 +80,3 @@ echo "<br>";
 echo $gender;
 
 ?>
-
-<?php
-
-?>

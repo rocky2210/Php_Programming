@@ -17,6 +17,13 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         echo $name;
     }
 }
+
+/*
+    PHP $_REQUEST:
+        $_REQUEST is a superglobal array that contains the contents of both $_GET, $_POST, and $_COOKIE. 
+        It is used to collect data sent from both the GET and POST methods, as well as cookies, and combines 
+        them into a single associative array.
+*/
 ?>
     </body>
 </html>
